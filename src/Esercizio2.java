@@ -10,7 +10,7 @@ public class Esercizio2 {
         String str2 = myObj.nextLine();  // Read user input
         String str3 = myObj.nextLine();  // Read user input
         // Read user input
-        System.out.println("Username is: " + str1 + str2 + str3);  // Output user input
+        System.out.println("Username is: " + str3 + str2 + str1);  // Output user input
     }
 }
 
