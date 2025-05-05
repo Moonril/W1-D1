@@ -7,8 +7,8 @@ public class Esercizio3 {
 
         System.out.println("Area triangolo: " + perimetroTriangolo(2, 2, 2));
     }
-    public static int perimetroRettangolo(int a, int b){
-        return a * b;
+    public static double perimetroRettangolo(double a, double b){
+        return (a + b) *2;
     }
 
     public static void pariDispari(int a){
@@ -18,9 +18,10 @@ public class Esercizio3 {
         } else {
              System.out.println(a + " is odd.");
         }
+        // oppure return x%2;
     }
 
-    public static int perimetroTriangolo(int a, int b, int c){
+    public static double perimetroTriangolo(double a, double b, double c){
         return (a+b+c)/2;
     }
 }
